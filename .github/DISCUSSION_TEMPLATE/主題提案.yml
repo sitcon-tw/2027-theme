@@ -1,0 +1,59 @@
+title: "[主題提案] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        當想法已逐漸形成一個可能的年會主題方向時，可以使用這份表單。這仍然是討論中的版本，名稱、論述與範圍都可以繼續調整。
+
+  - type: textarea
+    id: proposition
+    attributes:
+      label: 用一句話說明這個方向
+      description: 先說核心命題即可，不必先有正式主題名稱。
+      placeholder: 這個方向想討論的是……
+    validations:
+      required: true
+
+  - type: textarea
+    id: tension
+    attributes:
+      label: 它想處理什麼問題或張力？
+      placeholder: |
+        一方面……
+        另一方面……
+        我們想追問的是……
+    validations:
+      required: true
+
+  - type: textarea
+    id: timing
+    attributes:
+      label: 為什麼是現在？為什麼是 SITCON？
+      description: 可以從學生、資訊科技、社群、學習或實作等角度說明。
+    validations:
+      required: false
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: 這個方向從哪些討論發展而來？
+      description: 請盡量連結相關 Discussion，保留想法形成的脈絡。
+      placeholder: 延伸自 #12、#18……
+    validations:
+      required: false
+
+  - type: textarea
+    id: possibilities
+    attributes:
+      label: 如果成為年會主題，它可能帶出什麼？
+      description: 可以寫 Keynote、論壇、徵稿、視覺或會眾體驗等可能性。
+    validations:
+      required: false
+
+  - type: textarea
+    id: uncertainties
+    attributes:
+      label: 還沒想清楚的地方
+      placeholder: 我目前最不確定的是……
+    validations:
+      required: false
