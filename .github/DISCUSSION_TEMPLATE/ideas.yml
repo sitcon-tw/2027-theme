@@ -7,19 +7,6 @@ body:
 
         不需要先想好年會主題名稱，也不需要是一份完整提案。尚未想清楚的地方，也可以直接寫出來讓其他人接續。
 
-  - type: dropdown
-    id: kind
-    attributes:
-      label: 這篇比較像是什麼？
-      description: 只是方便大家理解現在的想法，不代表之後不能改變方向。
-      options:
-        - 一個觀察或問題
-        - 一個可能的主題方向
-        - 對既有討論的延伸或不同看法
-        - 還不確定
-    validations:
-      required: true
-
   - type: textarea
     id: idea
     attributes:
