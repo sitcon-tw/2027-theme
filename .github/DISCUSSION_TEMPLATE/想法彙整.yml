@@ -1,0 +1,23 @@
+title: "[想法彙整] "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 這一輪的整理
+      description: 整理目前的重要內容與關聯。
+    validations:
+      required: true
+  - type: textarea
+    id: open-questions
+    attributes:
+      label: 還有哪些問題？
+      description: 記錄尚未收斂、值得下一輪繼續討論的問題。
+    validations:
+      required: false
+  - type: textarea
+    id: next
+    attributes:
+      label: 下一步
+      description: 寫下下一輪希望大家回應的方向。
+    validations:
+      required: true
